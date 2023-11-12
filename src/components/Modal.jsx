@@ -14,7 +14,7 @@ const Modal = forwardRef(function Modal({ children }, ref) {
       },
     };
   });
-
+//todo make modal resuable
   return createPortal(
     <dialog className="modal" ref={dialog}>
       {children}
